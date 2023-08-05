@@ -12,7 +12,7 @@ def bttn():
 		return True
 
 with cc3:
-	st.subheader("_-Sai Likith_")
+	st.subheader("_Shots by Sai Likith_")
 
 st.write("_Passionate about automobile photography_")
 
@@ -27,12 +27,12 @@ g12 = Image.open('python/Showcase/Aesthetic/32323 (7 of 9).jpg')
 g22 = Image.open('python/Showcase/Aesthetic/IMG_1728.jpg')
 g32 = Image.open('python/Showcase/Aesthetic/IMG_6191-43.jpg')
 g42 = Image.open('python/Showcase/Aesthetic/IMG_0478.JPG')
-g52 = Image.open('python/Showcase/Aesthetic/IMG_1713.jpg')
+g52 = Image.open('python/Showcase/Aesthetic/IMG_1498.jpg')
 
 g13 = Image.open('python/Showcase/Aesthetic/IMG_20230124_204445-2.jpg')
 g23 = Image.open('python/Showcase/Aesthetic/32323 (25 of 30).jpg')
 g33 = Image.open('python/Showcase/Aesthetic/IMG_1652.jpg')
-g43 = Image.open('python/Showcase/Aesthetic/IMG_1498.jpg')
+g43 = Image.open('python/Showcase/Aesthetic/IMG_6153-29.jpg')
 
 
 with c1:
@@ -60,6 +60,8 @@ with c3:
 if bttn() == True:
 	with c1:
 		st.image(g41)
+	with c2:
+		st.image(g52)
 	with c3:
 		st.image(g43)
 
