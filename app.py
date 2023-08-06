@@ -16,7 +16,7 @@ st.markdown(st_style , unsafe_allow_html=True)
 #----------------------menu style end-------------------------------------------
 
 
-st.title("AESTHETIC SHOTS")
+st.title("AESTHETICSHOTS_2k21")
 
 cc1, cc2 ,cc3 = st.columns(3)
 
